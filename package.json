@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --ignore cache",
+    "start": "node index.js",
+    "start_dev": "nodemon --ignore cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
